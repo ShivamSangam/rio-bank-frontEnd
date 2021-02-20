@@ -33,5 +33,16 @@
               </div>
             </div>
         </nav>
+        <script>
+            document.addEventListener("DOMContentLoaded",()=>{
+                var cust = document.getElementById("cust-btn");
+                cust.onclick = function(e){
+                e.preventDefault();
+                setTimeout(()=>{
+                    //window.history.back()
+                    window.location.href = "customers.html"
+                }, 500)
+            })
+        </script>
     </body>
 </html>
