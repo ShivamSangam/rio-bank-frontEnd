@@ -1,4 +1,4 @@
-const url = "https://zbubi.sse.codesandbox.io/customer/infor";
+const url = "https://frozen-headland-80249.herokuapp.com/customer/infor";
 document.addEventListener('DOMContentLoaded',async ()=>{
     var table = document.getElementById("cust-table");
     var dummyData = await getUser();
