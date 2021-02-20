@@ -1,5 +1,5 @@
-const url = "https://zbubi.sse.codesandbox.io/customer/infor";
-const posturl = "https://zbubi.sse.codesandbox.io/api/transactions";
+const url = "https://frozen-headland-80249.herokuapp.com/customer/infor";
+const posturl = "https://frozen-headland-80249.herokuapp.com/api/transactions";
 var dummyData;
 var x = location.search;
 document.addEventListener('DOMContentLoaded',async ()=>{
